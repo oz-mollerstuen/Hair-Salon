@@ -3,12 +3,12 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace $ProjectName.Models 
+namespace HairSalon.Models 
 {
-  public class $ProjectNameContext : DbContext 
+  public class HairSalonContext : DbContext 
   {
     public DbSet<ClassName> ClassNames { get; set; }  // CHANGE CLASS NAME!!!
 
-    public $ProjectNameContext(DbContextOptions options) : base(options) { } 
+    public HairSalonContext(DbContextOptions options) : base(options) { } 
   }
 }
