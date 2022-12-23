@@ -1,0 +1,16 @@
+@{
+  Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/index.css">
+
+@model HairSalon.Models.Client
+
+<div class="contents">
+  <p>Deleting @Model.Name</p>
+  <p>Warning: Deletion is permanant.</p>
+  @using (Html.BeginForm())
+  {
+    <button type="submit" value="Delete">Delete</button>
+  }
+  <button>@Html.ActionLink("Back to Clients", "Index")</button>  
+</div>
