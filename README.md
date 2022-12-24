@@ -1,73 +1,50 @@
-# Setup for template
-#### Thanks [Robert Bryan](https://github.com/robbryandev) for the rad name replacement code! :pray:
-* _clone CSharpTemplate.Solution repository to desktop_
-* _run npm commands below in CSharpTemplate.Solution replacing [ProjectName] with the project name_
-```
-npm i
-```
-```
-node ./index.js --name [ProjectName] --dest ~/Desktop
-```
+# _Clair's Salon_
 
-* _run dotnet commands below_
-```
-dotnet add package Microsoft.EntityFrameworkCore -v 6.0.0
-```
-```
-dotnet add package Pomelo.EntityFrameworkCore.MySql -v 6.0.0
-```
+#### By _**Lucas Mollerstuen**_
 
-* _create appsettings.json file in ProjectName folder if using a MySql database_
-```
-{
-  "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=[database_name];uid=[USERNAME];pwd=[PASSWORD];"
-  }
-}
-```
-
-* _[$ dotnet watch run] to run project in developement mode_
-* _[$ dotnet watch run --launch-profile "production"] to run project in production mode._
-
-
-
-# _{Application Name}_
-
-#### By: _**David Gamble**_
-
-#### _{Brief description of application}_
+#### _Barber/salon Website_
 
 ## Technologies Used
 
 * _C#_
-* _.NET 6_
-* _ASP.NET Core MVC 6_
-* _Entity Framework Core_
-* _MySql_
-* _MS Tests_
+* _.NET_
+* _HTML_
+* _CSS_
+* _MySQL_
+* _Entity_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Website to track and change employees and customers for the salon._
 
 ## Setup/Installation Requirements
 
-* _Clone the repository to your desktop from: {Enter the repository url here}_
-* _Run [$ dotnet run] in the {ProjectName} repository in {ProjectName.Solutions}_
+* _Open up your terminal and navigate to the project folder_
+* _In terminal enter, ' "git clone https://github.com/oz-mollerstuen/Hair-Salon '_
+* _In terminal enter 'code .' to open files in Visual Studio Code_
+* _In VS Code terminal navigate to the HairSalon directory (file path ex. user/desktop/epicodus/projects/HairSalon.Solution/HairSalon)_
+* _Configure files with '$ dotnet add package Microsoft.EntityFrameworkCore -v 6.0.0' & '$ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 6.0.0-alpha.2'_
+* _Run '$ dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 6.0.0' to install Lazy Loading_
+* _Run '$ dotnet restore'_
+* _Create 'appsettings.json' file_
+* _Enter the following into the file:_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+{
+  "ConnectionStrings": {
+      "DefaultConnection": "Server=localhost;Port=3306;database=lucas_mollerstuen;uid=root;pwd=YOUR_PASSWORD;"
+  }
+}
+```
+* _To setup the database you open up MySQL and under 'Administration' select 'Data Import'_
+* _Check the 'Import from self contained file' option and enter the file path of the Database within HairSalon, then start Import_
+* _Enter '$ dotnet run to start program'_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* None found. If issues arise please contact mollerstuen.works@gmail.com
 
 ## License
 
-_Copyright (c) 2022 David Gamble_
+_[MIT](https://en.wikipedia.org/wiki/MIT_License)_
 
-_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
-
-_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
-
-_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+Copyright (c) _2022_ _Lucas Mollerstuen_

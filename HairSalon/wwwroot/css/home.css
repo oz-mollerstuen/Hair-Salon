@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://i.pinimg.com/originals/72/fa/ea/72faea3e3465e98ed9734846f9cb7704.jpg");
+  background-image: url("https://img.freepik.com/free-photo/working-tools-barber-master_651396-126.jpg?w=1060&t=st=1671842331~exp=1671842931~hmac=da8545a5c8b51e2e5ccdd5e3c1291b546899a3c9e69f85ea4f94189a2c41121f");
   overflow: hidden;
   background-size: cover;
   position: center;
@@ -8,10 +8,10 @@ body{
 h2{
   margin-top: 20px;
   position: absolute;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   font-weight: bold;
   margin-left: 30px;
-  color: white;
+  color: rgb(245, 3, 3);
 }
 
 .logo{
@@ -22,26 +22,21 @@ h2{
 }
 
 .homeImg {  
-  border: solid darkgray 10px;
+  border: solid rgb(243, 0, 203) 10px;
   margin-top: 280px;
   position: absolute;
   animation: slide 4s;
 }
-@keyframes slide {
-    0% { left: -150%; }
-    50% { left: 1%; }
-    100% { left: 0%; }
-}
+
 
 .homeImg2 {
-  border: solid darkgray 10px;
+  border: solid rgb(5, 212, 202) 10px;
   margin-top: 100px;
   margin-left:61.1%;
   position: absolute;
   animation: slide2 4s;
 }
-@keyframes slide2 {
-  0% { right: -150%; }
-  50% { right: 1%; }
-  100% { right: 0%; }
-}
+
+
+
+

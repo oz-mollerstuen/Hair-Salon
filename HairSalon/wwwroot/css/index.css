@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://i.pinimg.com/originals/72/fa/ea/72faea3e3465e98ed9734846f9cb7704.jpg");
+  background-image: url("https://img.freepik.com/free-photo/vintage-wooden-table-with-beard-shaping-salon-tools_53876-127084.jpg?w=1060&t=st=1671842216~exp=1671842816~hmac=6001d16f58afbed63725d5dd0118777da129a4c4ddbb31c94343cc0826c99671");
   overflow: hidden;
   background-size: cover;
   position: center;
@@ -30,16 +30,16 @@ body{
 
 p{
   text-decoration: none;
-  color: black;
+  color: rgb(37, 2, 2);
   font-size: 45px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   font-weight: bold;
 }
 
 h2{
   margin-top: 20px;
   position: absolute;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   font-weight: bold;
   margin-left: 30px;
   color: white;
@@ -47,7 +47,7 @@ h2{
 
 button{
   font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 10px;
@@ -55,13 +55,13 @@ button{
 
 h4{
   font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   font-weight: bold;
   color: black;
 }
 
 li{
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: fantasy;
   font-weight: bold;
 }
